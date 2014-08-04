@@ -29,6 +29,17 @@ In your ``conf.py``:
     html_theme_path = [sphinx_kr_theme.get_html_theme_path()]
 
 
+Theme Options
+--------------
+
+kr
+===
+
+It can be customized via these options:
+
+  - **stickysidebar** (true or false): Make the sidebar “fixed” so that it doesn’t scroll out of view for long body content. This may not work well with all browsers. Defaults to false.
+
+
 .. _krTheme: https://github.com/kennethreitz/kr-sphinx-themes
 .. _ReadTheDocs: https://readthedocs.org
 
